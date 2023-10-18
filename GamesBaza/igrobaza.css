@@ -244,6 +244,7 @@ hr {
 
 .send {
     margin-bottom: 4%;
+    max-width: 500px;
 }
 
 .send input[type="text"], textarea {
@@ -256,8 +257,9 @@ hr {
 }
 
 .send textarea {
-    width: 624px;
+    width: 506px;
     height: 200px;
+    resize: none;
 }
 
 .send input[type="submit"] {
@@ -348,6 +350,8 @@ td img {
 .footer p {
     padding: 0 0 10px 0;
 }
+
+
 
 @media only screen
 and (min-device-width: 320px)

@@ -2,31 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Игробаза - это портал о кино">
+    <meta name="description" content="Игробаза - это портал о компьютерных играх">
     <meta name="keywords" content="игры, игры онлайн, обзоры на игры">
-    <title>Контакты</title>
+    <title>League of Legends</title>
     <link rel="stylesheet" href="igrobaza.css">
 </head>
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
-            <div class="logo">
+            <figure class="logo">
                 <div class="logo_text">
                     <h1><a href="index.html">Игробаза</a></h1>
                     <h2>Компьютерные игры - наша страсть!</h2>
                 </div>
-            </div>
+            </figure>
             <nav class="menubar">
                 <ul class="menu">
                     <li><a href="index.html">Главная</a></li>
                     <li><a href="newgames.html">Новые игры</a></li>
                     <li><a href="multiplayer.html">Мультиплеерные проекты</a></li>
                     <li><a href="rating.html">Рейтинг игр</a></li>
-                    <li class="selected"><a href="contact.html">Контакты</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="site_content">
+        <section class="site_content">
             <aside class="sidebar_container">
                 <section class="sidebar">
                     <h2>Поиск</h2>
@@ -47,34 +47,40 @@
                     </form>
                 </section>
                 <section class="sidebar">
-                    <h2>Новости</h2>
-                    <span>12.10.2023</span>
+                    <h2>Новости</h2> 
+                    <span>31.02.2018</span>
                     <p>Мы запустили расширенный поиск</p>
-                    <a href="#">Читать</a>
-                  </section>
-                <section class="sidebar">
-                    <h2>Рейтинг фильмов</h2>
-                    <ul>
-                        <li><a href="show.html">Starfield</a><span class="rating_sidebar">8.3</span></li>
-                        <li><a href="#">Counter-Strike 2</a><span class="rating_sidebar">8.0</span></li>
-                        <li><a href="#">Assassin's Creed Mirage</a><span class="rating_sidebar">7.7</span></li>
-                        <li><a href="#">The Crew Motorfest</a><span class="rating_sidebar">7.5</span></li>
-                    </ul>
                 </section>
+                <section class="sidebar">
+                    <h2>Рейтинг игр</h2>
+                    <ul>
+                      <li>
+                        <a href="starfield.html">StarField</a>
+                        <span class="rating_sidebar">8.3</span>
+                      </li>
+                      <li>
+                        <a href="cs2.html">Counter-Strike 2</a>
+                        <span class="rating_sidebar">8.0</span>
+                      </li>
+                      <li>
+                        <a href="assasin.html">Assassin's Creed Mirage</a>
+                        <span class="rating_sidebar">7.7</span>
+                      </li>
+                      <li>
+                        <a href="thecrew.html">The Crew Motorfest</a>
+                        <span class="rating_sidebar">7.5</span>
+                      </li>
+                    </ul>
+                  </section>
             </aside>
-            <main class="content">
-                <h1>Контакты</h1>
-                <p>Отправьте ваш отзыв о портале Игробаза</p>
-                <div class="send">
-                    <form method="post" action="#" id="contact">
-                        <input type="text" name="review_name" placeholder="ваше имя">
-                        <input type="text" name="review_email" placeholder="ваш email">
-                        <textarea name="review_text"></textarea>
-                    </form>
-                    <input class="btn" type="submit" value="Отправить">
-                </div>
-            </main>
-        </div>
+            <section class="content">
+                <article class="info_game">
+                    <img src="lol.png">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis lorem imperdiet, suscipit elit id, sollicitudin nibh. Integer felis nulla, consectetur a neque sit amet, cursus pharetra enim. Nulla quis posuere metus. Mauris fringilla sem.
+                    <div class="button"><a href="https://www.leagueoflegends.com/">Играть</a></div>
+                </article>
+            </section>
+        </section>
         <footer class="footer">
             <p>
                 <a href="index.html">Главная</a> |
@@ -85,6 +91,6 @@
             </p>
             <p>igrobaza.ee</p>
         </footer>
-    </div>
+    </main>
 </body>
 </html>
