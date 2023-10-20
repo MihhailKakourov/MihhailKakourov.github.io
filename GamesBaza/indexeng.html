@@ -1,164 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <meta name="description" content="Kinobaza - a portal about movies" />
-    <meta name="keywords" content="movies, online movies, hd" />
-    <link rel="stylesheet" href="kinobaza.css">
-  </head>
-  <body>
-    <div class="main">
-      <header class="header">
-        <div class="logo">
-          <div class="logo_text">
-            <h1>
-              <a href="kinobaza.html">Kinobaza</a>
-            </h1>
-            <h2>Movies - our passion!</h2>
-          </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Page</title>
+  <meta name="description" content="Igrobaza is a portal about computer games." />
+  <meta name="keywords" content="games, online games, game reviews" />
+  <link rel="stylesheet" href="igrobaza.css">
+</head>
+
+<body>
+  <div class="main">
+    <header class="header">
+      <div class="logo">
+        <div class="logo_text">
+          <h1>
+            <a href="index.html">Igrobaza</a>
+          </h1>
+          <h2>Computer games - our passion</h2>
         </div>
-        <nav class="menubar">
-          <ul class="menu">
-            <li class="selected">
-              <a href="index.html">Home</a>
+      </div>
+      <nav class="menubar">
+        <ul class="menu">
+          <li class="selected">
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="newgames.html">New games</a>
+          </li>
+          <li>
+            <a href="multiplayer.html">Multiplayer games</a>
+          </li>
+          <li>
+            <a href="rating.html">Games rating</a>
+          </li>
+          <li>
+            <a href="contact.html">Contacts</a>
+          </li>
+          <li>
+            <a href="index.html">На русском</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="site_content">
+      <aside class="sidebar_container">
+        <section class="sidebar">
+          <h2>Search</h2>
+          <form method="post" action="#" id="search_form">
+            <input type="search" name="search_field" placeholder="Your request" />
+            <input type="submit" class="btn" value="search" />
+          </form>
+        </section>
+        <section class="sidebar">
+          <h2>Sign in</h2>
+          <form method="post" action="#" id="login">
+            <input type="text" name="login_field" placeholder="Login" />
+            <input type="password" name="password_field" placeholder="Password" />
+            <input type="submit" class="btn" value="Enter">
+          </form>
+          <div class="labels_passreg_text">
+            <span>
+              <a href="#">forgot your password?</a>
+              <a href="#">sign up</a>
+            </span>
+          </div>
+        </section>
+        <section class="sidebar">
+          <h2>News</h2>
+          <span>12.10.2023</span>
+          <p>We launched enhanced search</p>
+          <a href="#">Read</a>
+        </section>
+        <section class="sidebar">
+          <h2>Games rating</h2>
+          <ul>
+            <li>
+              <a href="starfield.html">StarField</a>
+              <span class="rating_sidebar">8.3</span>
             </li>
             <li>
-              <a href="films.html">Movies</a>
+              <a href="cs2.html">Counter-Strike 2</a>
+              <span class="rating_sidebar">8.0</span>
             </li>
             <li>
-              <a href="show.html">TV Shows</a>
+              <a href="assasin.html">Assassin's Creed Mirage</a>
+              <span class="rating_sidebar">7.7</span>
             </li>
             <li>
-              <a href="rating.html">Movie Ratings</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-            <li>
-              <a href="index.html">На русском</a>
+              <a href="thecrew.html">The Crew Motorfest</a>
+              <span class="rating_sidebar">7.5</span>
             </li>
           </ul>
-        </nav>
-      </header>
-      <div class="site_content">
-        <aside class="sidebar_container">
-          <section class="sidebar">
-            <h2>Search</h2>
-            <form method="post" action="#" id="search_form">
-              <input type="search" name="search_field" placeholder="Your query" />
-              <input type="submit" class="btn" value="Search" />
-            </form>
-          </section>
-          <section class="sidebar">
-            <h2>Login</h2>
-            <form method="post" action="#" id="login">
-              <input type="text" name="login_field" placeholder="Username" />
-              <input type="password" name="password_field" placeholder="Password" />
-              <input type="submit" class="btn" value="Login">
-              <div class="labels_passreg_text">
-                <span>
-                  <a href="#">Forgot password?</a> |
-                  <a href="#">Registration</a>
-                </span>
-              </div>
-            </form>
-          </section>
-          <section class="sidebar">
-            <h2>News</h2>
-            <span>February 31, 2018</span>
-            <p>We have launched an enhanced search.</p>
-            <a href="#">Read</a>
-          </section>
-          <section class="sidebar">
-            <h2>Movie Ratings</h2>
-            <ul>
-              <li>
-                <a href="inter.html">Interstellar</a>
-                <span class="rating_sidebar">8.1</span>
-              </li>
-              <li>
-                <a href="matrix.html">The Matrix</a>
-                <span class="rating_sidebar">8.0</span>
-              </li>
-              <li>
-                <a href="max.html">Mad Max</a>
-                <span class="rating_sidebar">7.5</span>
-              </li>
-              <li>
-                <a href="cloud.html">Cloud Atlas</a>
-                <span class="rating_sidebar">7.4</span>
-              </li>
-            </ul>
-          </section>
-        </aside>
-        <main class="content">
-          <h1>New Movies</h1>
-          <div class="films_block">
-            <a href="#">
-              <img src="matrix.png">
-            </a>
-            <a href="#">
-              <img src="max.png">
-            </a>
-            <a href="show.html">
-              <img src="inter.png">
-            </a>
-            <a href="#">
-              <img src="cloud.png">
-            </a>
-          </div>
-          <h1>New TV Shows</h1>
-          <div class="films_block">
-            <a href="#">
-              <img src="dead.png">
-            </a>
-            <a href="#">
-              <img src="silicon.png">
-            </a>
-            <a href="#">
-              <img src="breakingbad.png">
-            </a>
-            <a href="#">
-              <img src="xfiles.png">
-            </a>
-          </div>
-          <div class="posts">
-            <hr>
-            <h2>
-              <a href="#">Behind the Scenes of Interstellar</a>
-            </h2>
-            <div class="posts_content">
-              <p>Christopher Nolan, one of the most successful directors of our time, celebrated his 45th birthday - equally beloved by both critics and audiences. Initially, the film was being developed by Paramount. When Christopher Nolan took over as the director, Warner Bros., the studio that had released his recent films, became involved in the project.</p>
-            </div>
-            <p>
-              <a href="#">Read</a>
-            </p>
-            <hr>
-            <h2>
-              <a href="#">Actor Tom Hanks Shares Impressions of the Festival</a>
-            </h2>
-            <div class="posts_content">
-              <p>On February 16th, the 67th British Academy Film Awards took place in London. Leonardo DiCaprio, Brad Pitt, Angelina Jolie, Kate Blanchett, Helen Mirren, Amy Adams, Christian Bale, Alfonso Cuaron, and other guests and winners of the award are featured in our report.</p>
+        </section>
+      </aside>
+      <main class="content">
+        <h1>New games</h1>
+        <div class="games_block">
+          <a href="cs2.html">
+            <img src="cs2.png">
+          </a>
+          <a href="thecrew.html">
+            <img src="thecrew.png">
+          </a>
+          <a href="starfield.html">
+            <img src="starfield.png">
+          </a>
+          <a href="assasin.html">
+            <img src="assasin.png">
+          </a>
+        </div>
+        <h1>Most popular games at the moment</h1>
+        <div class="games_block">
+          <a href="lol.html">
+            <img src="lol.png">
+          </a>
+          <a href="valorant.html">
+            <img src="valorant.png">
+          </a>
+          <a href="minecraft.html">
+            <img src="minecraft.png">
+          </a>
+          <a href="cs2.html">
+            <img src="cs2.png">
+          </a>
+        </div>
+        <div class="posts">
+          <hr>
+          <h2>
+            <a href="#">Valve did not keep their promise to finish working on CS2 by the end of the summer. Is this a failure or was it expected?</a>
+          </h2>
+          <div class="posts_content">
+            <p>The release of CS2 is undeniably the main topic of 2023, capturing the full attention of the Counter-Strike community. On March 22, Valve announced the game, initiated a closed beta test, and, most importantly, set a clear release deadline for the summer of 2023.
+
+              As we can see now, with September 1 on the calendar, a full release is still not available. The Igrobaza portal decided to investigate the current situation and understand how this has happened.</p>
               <p>
                 <a href="#">Read</a>
               </p>
-            </div>
           </div>
-        </main>
-      </div>
-      <footer class="footer">
-        <p>
-          <a href="index.html">Home</a> |
-          <a href="films.html">Movies</a> |
-          <a href="show.html">TV Shows</a> |
-          <a href="rating.html">Movie Ratings</a> |
-          <a href="contact.html">Contact</a> |
-          <a href="index.html">Language</a>
-        </p>
-        <p>kinobaza.ee</p>
-      </footer>
+          <hr>
+          <h2>
+            <a href="#">Assassin’s Creed Mirage - you got what you wanted. Review.</a>
+          </h2>
+          <div class="posts_content">
+            <p>After Assassin’s Creed Syndicate, Ubisoft decided to transform the series from 'compact' action games into large-scale role-playing experiences. The size of the games grew with each release: first, a large map in Origins, then the vast landscapes of Ancient Greece in Odyssey, and this trilogy concluded with the enormous Valhalla, which took more than fifty hours to complete. Some people appreciated this approach, while others missed the old Assassin’s Creed games, where cities were significantly smaller, and navigating the map was simpler. With the release of Mirage, the desire of the old fans has been granted, and the price is set lower than the usual, at just $50 instead of the usual $70.</p>
+            <p>
+              <a href="#">Read</a>
+            </p>
+          </div>
+        </div>
+      </main>
     </div>
-  </body>
+    <footer class="footer">
+      <p>
+        <a href="index.html">Home</a> |
+        <a href="newgames.html">New games</a> |
+        <a href="multiplayer.html">Multiplayer games</a> |
+        <a href="rating.html">Games rating</a> |
+        <a href="contact.html">Contacts</a> |
+      </p>
+      <p>igrobaza.ee</p>
+    </footer>
+  </div>
+</body>
+
 </html>
