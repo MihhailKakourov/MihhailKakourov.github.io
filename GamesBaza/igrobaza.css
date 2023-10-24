@@ -41,6 +41,7 @@ a, a:hover {
     outline: none;
     text-decoration: underline;
     color: #aeb002;
+    transition: 0.6s linear;
 }
 
 ul {
@@ -91,12 +92,12 @@ ul li {
 }
 
 .menubar {
-    width: 1000px;
+    width: 865px;
     height: 46px;
 }
 
 ul.menu {
-    float: right
+    float: right;
 }
 
 ul.menu li {
@@ -201,22 +202,29 @@ hr {
     border-radius: 5px;
     border: solid 5px #dad7d5;
     width: 40%;
+    transition: 0.15s linear;
+}
+
+.games_block img:hover {
+    border-radius: 5px;
+    border: solid 5px #dad7d5;
+    width: 45%;
 }
 
 .posts .posts_content {
     font-size: 0.8em;
 }
 
-.info_film_page {
+.info_game_page {
     margin-top: 2%;
     margin-bottom: 4%;
 }
 
-.info_film_page .label {
+.info_game_page .label {
     font-size: 1.2em;
 }
 
-.info_film_page .value {
+.info_game_page .value {
     font-size: 1em;
     color: #49945A;
     margin-right: 3%;
@@ -262,6 +270,11 @@ hr {
     resize: none;
 }
 
+iframe{
+    width: 50%;
+    height: 59%;
+}
+
 .send input[type="submit"] {
     background-color: #7268AD;
     padding: 3%;
@@ -290,6 +303,18 @@ hr {
     border-radius: 5px;
     border: solid 5px #dad7d5;
     width: 50%;
+}
+
+.info_game iframe {
+    float: left;
+    margin-right: 2%;
+    border-radius: 5px;
+    border: solid 5px #dad7d5;
+}
+
+.info_game p{
+    padding: 0;
+    line-height: 1.5em;
 }
 
 .button {

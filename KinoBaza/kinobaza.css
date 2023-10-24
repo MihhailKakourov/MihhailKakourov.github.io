@@ -41,6 +41,7 @@ a, a:hover {
     outline: none;
     text-decoration: underline;
     color: #aeb002;
+    transition: 0.6s linear;
 }
 
 ul {
@@ -91,7 +92,7 @@ ul li {
 }
 
 .menubar {
-    width: 900px;
+    width: 770px;
     height: 46px;
 }
 
@@ -197,6 +198,14 @@ hr {
     border-radius: 5px;
     border: solid 5px #dad7d5;
     width: 22%;
+    transition: 0.15s linear;
+}
+
+.films_block img:hover {
+    border-radius: 5px;
+    border: solid 5px #dad7d5;
+    width: 25%;
+    transition: 0.15s linear;
 }
 
 .posts .posts_content {
@@ -240,6 +249,7 @@ hr {
 
 .send {
     margin-bottom: 4%;
+    max-width: 500px;
 }
 
 .send input[type="text"], textarea {
@@ -252,8 +262,9 @@ hr {
 }
 
 .send textarea {
-    width: 624px;
+    width: 506px;
     height: 200px;
+    resize: none;
 }
 
 .send input[type="submit"] {
