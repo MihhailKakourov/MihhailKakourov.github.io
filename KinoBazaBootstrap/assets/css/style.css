@@ -176,3 +176,7 @@ footer a {
 footer a:hover {
     color: #efefef;
 }
+
+.well_container {
+    font-size: 20px;
+}
