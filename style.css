@@ -18,6 +18,7 @@ body {
     background-color:#343a40;
     border: none;
     filter: drop-shadow(0px 0px 50px #212529);
+    min-height: 163px;
 }
 
 
@@ -39,7 +40,7 @@ body {
 }
 
 #projects {
-    padding: 40px 0;
+    padding: 40px;
 }
 
 #contact {
