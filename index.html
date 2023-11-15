@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
                 </li>
@@ -34,14 +34,13 @@
     </nav>
 
     <section id="hero" class="text-center">
-        <h1 class="bold">Mihhail Kakourov</h1>
+        <h1 class="font-weight-bold">Mihhail Kakourov</h1>
         <p>Front-end Developer</p>
     </section>
 
-
     <section id="skills">
         <div class="container">
-            <h2 class="bold">Skills</h2>
+            <h2 class="font-weight-bold">Skills</h2>
             <div class="row">
                 <div class="col-md-4">
                     <h3>Frontend</h3>
@@ -54,60 +53,62 @@
             </div>
         </div>
     </section>
-
-    <section id="projects" class="bg-dark text-white">
-        <div class="container">
-            <h2 class="bold">Projects</h2>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h2 class="bold" style="min-height: 77px;">KinoBaza</h2>
-                            <a href="KinoBaza/index.html" class="btn btn-primary btn-light">Learn More</a>
+                <section id="projects">
+                    <div class="container">
+                        <h2 class="bold">Projects</h2>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h2 id="baza" class="bold" style="min-height: 77px;">KinoBaza</h2>
+                                        <a href="KinoBaza/index.html" class="btn btn-primary btn-light">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h2 id="baza" class="bold" style="min-height: 77px;">Igrobaza</h2>
+                                        <a href="GamesBaza/index.html" class="btn btn-primary btn-light">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h2 id="baza" class="bold">KinoBaza Bootstrap</h2>
+                                        <a href="KinoBazaBootstrap/index.html" class="btn btn-primary btn-light">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h2 id="baza" class="bold">Igrobaza Bootstrap</h2>
+                                        <a href="GamesBazaBootstrap/index.html" class="btn btn-primary btn-light">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h2 id="baza" class="bold">Igrobaza Bootstrap5</h2>
+                                        <a href="GamesBazaBootstrap5/index.html" class="btn btn-primary btn-light">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h2 class="bold" style="min-height: 77px;">Igrobaza</h2>
-                            <a href="GamesBaza/index.html" class="btn btn-primary btn-light">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h2 class="bold">KinoBaza Bootstrap</h2>
-                            <a href="KinoBazaBootstrap/index.html" class="btn btn-primary btn-light">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h2 class="bold">Igrobaza Bootstrap</h2>
-                            <a href="GamesBazaBootstrap/index.html" class="btn btn-primary btn-light">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    
-    
-    
-    
+                </section>
 
     <section id="contact">
         <div class="container">
-            <h2 class="bold">Contact Me</h2>
+            <h2 class="font-weight-bold">Contact Me</h2>
             <p>mihhail.kakourov@ivkhk.ee</p>
         </div>
     </section>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

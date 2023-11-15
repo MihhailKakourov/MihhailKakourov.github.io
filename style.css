@@ -41,8 +41,13 @@ body {
 
 #projects {
     padding: 40px;
+    background-color: #343a40;
 }
 
 #contact {
     padding: 40px 0;
+}
+
+#baza{
+    color: white;
 }
