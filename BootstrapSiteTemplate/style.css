@@ -1,0 +1,21 @@
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+nav, footer{
+    background-color: #5885AF;
+}
+
+
+.img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+.custom-image {
+    height: 400px; /* Set your desired height */
+}
