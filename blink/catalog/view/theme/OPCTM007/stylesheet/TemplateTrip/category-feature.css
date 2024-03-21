@@ -1,0 +1,304 @@
+/*-------------------------------------------- Category feature CSS Start --------------------------------------*/
+#cat_feature {
+	float: left;
+	position: relative;
+	width: 100%;
+	margin: 0 0 110px;
+}
+#cat_feature .parallex {
+	background-position: center bottom !important;
+	padding: 50px 0 185px;
+	float: left;
+	width: 100%;
+	background-size: cover;
+}
+.category-feature {
+	margin: 0;
+}
+.category-feature.tt-carousel.owl-loaded.owl-carousel.owl-drag {
+	width: 100%;
+	float: left;
+	padding: 10px 0 0;
+	text-align: center;
+}
+.tt-category-featured .ttfcat-items .item {
+	float: left;
+	width: 100%;
+	position: relative;
+}	
+.tt-category-featured .ttfcat-items .content .tt_cat_content {
+	float: left;
+	width: 100%;
+}
+#cat_feature .tt-titletab .short-desc {
+	float: left;
+	width: 100%;
+}
+.tt-category-featured .ttfcat-items {
+	position: relative;
+	padding: 0;
+	float: left;
+	width: 100%;
+}
+.tt-category-featured .ttfcat-items .content {
+	float: left;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+}
+.tt-category-featured .ttfcat-items .content:hover .tt-category-featured .caption .cat-title > h4 a{
+	color:#b98552;
+}
+.tt-category-featured .ttfcat-items .item .image {
+	float: left;
+	margin-bottom: -132px;
+	text-align: center;
+	width: 100%;
+}
+.tt-category-featured .ttfcat-items .item .image a {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+	position: relative;
+	width: auto;
+}
+.tt-category-featured .category-feature .caption {
+	float: left;
+	padding: 10px;
+	padding-top: 165px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	min-height: 455px;
+	width: 100%;
+}
+.tt-category-featured .category-feature .owl-item:nth-child(1) .caption {
+	background: #ff9fac;
+}
+.tt-category-featured .category-feature .owl-item:nth-child(2) .caption {
+	background: #9ecbdd;
+}
+.tt-category-featured .category-feature .owl-item:nth-child(3) .caption {
+	background: #99d3ab;
+}
+.tt-category-featured .category-feature .owl-item:nth-child(4) .caption {
+	background: #f4909d;
+}
+.tt-category-featured .category-feature .caption .cat-title {
+	float: none;
+	width: auto;
+	position:relative;
+	z-index:1;
+}
+.tt-category-featured .products-carousel .owl-buttons {
+	display: none;
+}
+.tt-category-featured .caption .cat-title > h4 {
+	color: #ffffff;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: adsolute;
+	margin:0;
+	
+}
+.tt-category-featured .caption .cat-title > h4 a {
+	font: 700 28px/30px "Poppins", Helvetica, sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 0 0 10px;
+	padding: 0 0 17px;
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+	width: auto;
+	position: relative;
+	overflow: hidden;
+	color :#ffffff;
+}
+.tt-category-featured .caption .cat-title > h4 a::after{
+	bottom: 0;
+	content: "";
+	height: 7px;
+	border-top: 6px dotted white;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	width: 34px;
+}
+.tt-category-featured .caption .cat-title > p {
+	text-align: center;
+	font: 400 18px/22px Poppins,Helvetica,sans-serif;
+	color: #777777;
+	cursor: pointer;
+}
+.tt-category-featured .caption .cat-title > p:hover{
+	color: #77b500;
+}
+.tt-category-featured .caption .cat-sub {
+	float: left;
+	width: 100%;
+}
+.tt-category-featured .caption .cat-sub ul {
+	float: left;
+	width: 100%;
+	z-index: 1;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+.tt-category-featured .caption .cat-sub ul li {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+.tt-category-featured .caption .cat-sub ul li a,
+.tt-category-featured .caption .cat-sub ul li span {
+	font: 500 14px/16px "Poppins", Helvetica, sans-serif;
+	position: relative;
+	background: none;
+	border: none;
+	padding: 5px 0;
+	margin: 0 0 5px;
+	color: #ffffff;
+	cursor: pointer;
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+	width: auto;
+}
+.tt-category-featured .caption .cat-sub ul li a::after,
+.tt-category-featured .caption .cat-sub ul li span::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: auto;
+	bottom: 0;
+	width: 0;
+	height: 1px;
+	background: #fff;
+	transition: all 400ms ease-in-out 0s;
+	-webkit-transition: all 400ms ease-in-out 0s;
+	-moz-transition: all 400ms ease-in-out 0s;
+	-ms-transition: all 400ms ease-in-out 0s;
+	-o-transition: all 400ms ease-in-out 0s;
+}
+.tt-category-featured .caption .cat-sub ul li a:hover::after,
+.tt-category-featured .caption .cat-sub ul li span:hover:after {
+	width: 100%;
+}
+.tt-category-featured .cat-sub li .more-menu {
+	float: none;
+	position: relative;
+	width: auto;
+	margin: 22px 0 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+.tt-category-featured .cat-sub li .more-menu::after {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 160px;
+	height: 1px;
+	background: rgba(255,255,255,0.3);
+	top: -7px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.tt-category-featured .cat-sub li .more-menu::before {
+	content: "\E5CC";
+	font-family: "Material Icons";
+	font-size: 18px;
+	float: right;
+	position: relative;
+	color: #fff;
+	line-height: 30px;
+	z-index: 1;
+}
+/*-------------------------------------------- Category feature CSS End --------------------------------------*/
+@media (max-width: 1250px) {
+	.tt-category-featured .ttfcat-items .item .image a img {
+		width: 85%;
+		margin: 0 auto;
+	}
+	.tt-category-featured .caption .cat-title > h4 a {
+		font-size: 21px;
+	}
+	#cat_feature {
+		margin: 0 0 80px;
+	}
+}
+@media (max-width: 767px) {
+	.tt-category-featured .ttfcat-items .content::before{
+		width: 100%;
+		right: 0;	
+	}
+	.tt-category-featured .caption .cat-sub ul li.more .tt_more-menu .categories a{
+		padding: 5px 25px;	
+	}
+	#cat_feature .parallex {
+		padding: 50px 0 55px;
+	}
+	.tt-category-featured .ttfcat-items .item .image a {
+		padding: 0;
+	}
+	#cat_feature .row {
+		margin: 0;
+	}
+	.tt-category-featured .ttfcat-items {
+		float: left;
+		width: 100%;
+	}
+	.tt-category-featured .ttfcat-items .item::after {
+		right: 14px;
+		width: 92%;
+		height: 66%;
+		bottom: 0;
+	}
+}
+@media (max-width: 543px) {
+	#cat_feature .parallex {
+		padding: 30px 0 70px;
+	}
+	.tt-category-featured .ttfcat-items .item .caption{
+		top:0;	
+	}
+	.tt-category-featured .caption .cat-sub ul li.more .tt_more-menu .categories a{
+		padding: 4px 20px;	
+	}
+	#cat_feature .tt-titletab .tt-sub-title{
+		padding:0 0 10px;	
+		text-align: center;
+	}
+	.ttfotter-sub-title {
+		font-size: 20px;
+		margin: 6px 0;
+	}
+	.tt-category-featured .ttfcat-items .item::after {
+		right: 0;
+		width: 100%;
+		height: 66%;
+		bottom: 0;
+	}
+}
+@media (max-width: 480px) {
+	#cat_feature {
+		margin: 0 0 40px;
+	}
+	.tt-category-featured .caption .cat-title > p{
+		font-size: 16px;
+		line-height: 18px;	
+	}
+	.tt-category-featured .caption .cat-title > h4 a{
+		font-size:18px;
+		line-height: 20px;	
+	}
+	#cat_feature .parallex {
+		padding: 30px 0 20px;
+	}
+}
