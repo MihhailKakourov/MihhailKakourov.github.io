@@ -52,6 +52,16 @@ let game = {
         }
     },
     
+    startBall() {
+        document.addEventListener('keydown', (event) => {
+            if (event.key === "Space") {
+                this.ballMoving = true;
+                this.ball.vx = 5; // Задаем скорость по X
+                this.ball.vy = -5; // Задаем скорость по Y
+            }
+        });
+    },
+    
     
     
     start: function() {
