@@ -227,7 +227,7 @@ game.ball = {
             this.dy = this.velocity;
             game.sounds.bump.play();  
         } else if (ballBottom > worldBottom) {
-            game.end('Вы проиграли ::::((((');
+            game.end('Вы проиграли');
         }   
     },
     bumpBlock(block) {
