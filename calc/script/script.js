@@ -6,6 +6,13 @@ const inputRub = document.querySelector("#rub");
 
 inputEur.addEventListener("input", () => {
     const request = new XMLHttpRequest();
+
+    if (isNaN(inputEur.value)) {
+        inputUsd.value = "Enter number pls";
+        inputRub.value = "Enter number pls";
+        return
+    }
+
     request.open("GET", "script/current.json");
     request.setRequestHeader("Content-type", "application/json; charset=utf-8");
     request.send();
