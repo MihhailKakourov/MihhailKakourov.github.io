@@ -83,6 +83,13 @@ let game = {
         }
     },
     
+    destroyBlock(block) {
+        let index = this.blocks.indexOf(block);
+        if (index > -1) {
+            this.blocks.splice(index, 1); // Удаляем блок из массива
+        }
+    },
+    
     
     
     start: function() {
