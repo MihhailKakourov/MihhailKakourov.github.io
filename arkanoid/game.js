@@ -75,7 +75,15 @@ let game = {
                 block.destroy(); // Уничтожаем блок
             }
         }
-    },    
+    },
+
+    checkBallCollisionWithPlatform() {
+        if (this.ballCollidesWith(this.platform)) {
+            this.ball.vy *= -1; // Меняем направление после удара о платформу
+        }
+    },
+    
+    
     
     start: function() {
         this.init();
