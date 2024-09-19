@@ -62,6 +62,12 @@ let game = {
         });
     },
     
+    launchBall() {
+        let angle = Math.random() * Math.PI / 4 - Math.PI / 8; // Случайный угол между -22.5° и 22.5°
+        this.ball.vx = 5 * Math.cos(angle);
+        this.ball.vy = -5 * Math.sin(angle);
+    },
+    
     
     
     start: function() {
