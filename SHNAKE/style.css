@@ -15,7 +15,7 @@
 
 .game-table{
     border-collapse: collapse;
-    background-color: #3e3e3e;
+    background-color: #2e2e2e;
 }
 
 td.game-table-cell{
@@ -25,11 +25,11 @@ td.game-table-cell{
 }
 
 .snake-unit{
-    background-color: white;
+    background-color: blue;
 }
 
 .food-unit{
-    background-color: red;
+    background-color: green;
 }
 
 .buttons{

@@ -1,6 +1,6 @@
-var FIELD_SIZE_X = 20;
-var FIELD_SIZE_Y = 20;
-var SNAKE_SPEED = 300;
+var FIELD_SIZE_X = 50;
+var FIELD_SIZE_Y = 50;
+var SNAKE_SPEED = 50;
 var snake = [];
 var direction = "y+"
 var gameIsRunning = false;
@@ -12,7 +12,7 @@ function init() {
     prepareGameField();
 
     var wrap = document.getElementsByClassName("wrap")[0];
-    wrap.style.width = '400px';
+    wrap.style.width = '1000px';
 
     document.getElementById('snake-start').addEventListener('click', startGame);
     document.getElementById('snake-renew').addEventListener('click', refreshGame);
@@ -152,8 +152,8 @@ function changeDirection(e) {
             }
             break;
         case 38:
-            if (direction != "y+") {
-                direction = "y-";
+            if (direction != "y-") {
+                direction = "y+";
             }
             break;
         case 39:
@@ -162,8 +162,8 @@ function changeDirection(e) {
             }
             break;
         case 40:
-            if (direction != "y-") {
-                direction = "y+";
+            if (direction != "y+") {
+                direction = "y-";
             }
             break;
     }
