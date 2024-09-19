@@ -45,6 +45,14 @@ let game = {
         });
     },
     
+    holdBallOnPlatform() {
+        if (!this.ballMoving) {
+            this.ball.x = this.platform.x + this.platform.width / 2 - this.ball.width / 2;
+            this.ball.y = this.platform.y - this.ball.height;
+        }
+    },
+    
+    
     
     start: function() {
         this.init();
