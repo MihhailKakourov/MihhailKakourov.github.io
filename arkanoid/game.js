@@ -68,7 +68,14 @@ let game = {
         this.ball.vy = -5 * Math.sin(angle);
     },
     
-    
+    checkBallCollisionWithBlocks() {
+        for (let block of this.blocks) {
+            if (this.ballCollidesWith(block)) {
+                this.ball.vy *= -1; // Меняем направление движения по Y
+                block.destroy(); // Уничтожаем блок
+            }
+        }
+    },    
     
     start: function() {
         this.init();
