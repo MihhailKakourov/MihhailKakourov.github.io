@@ -2,51 +2,74 @@
   "menu": [
     {
       "img": "img/tabs/vegy.jpg",
-      "alting": "vegy",
-      "title": "Меню 'Фитнесс'",
-      "descr": "Меня 'Фитнес' - это новый подход к приготовлению блюд: больше свежих овощей и фруктов. Продукт активных и здоровых людей. Это абсолютно новый продукт с оптимальной ценой и высоким качеством!",
+      "altimg": "vegy",
+      "title": "Menüü 'Fitness'",
+      "descr": "Menüü 'Fitness' on uus lähenemine toidu valmistamisele: rohkem värskeid köögivilju ja puuvilju. Toode aktiivsetele ja tervetele inimestele. See on täiesti uus toode parima hinna ja kõrge kvaliteediga!",
       "price": 9
     },
     {
       "img": "img/tabs/post.jpg",
-      "alting": "post",
-      "title": "Меню 'Постное'",
-      "descr": "Меня 'Постное' - это тщательный подбор ингредиентов: полное отсутствие продуктов животного происхождения, молоко из миндаля, овса, кокоса или гречки, правильное количество белков за счет тофу и импортных вегитрианских стейков.",
+      "altimg": "post",
+      "title": "Menüü 'Paastuaeg'",
+      "descr": "Menüü 'Paastuaeg' on hoolikas koostisosade valik: täielik loomsete saaduste puudumine, mandli-, kaera-, kookose- või tatrapiim, õiges koguses valku tofust ja imporditud taimetoitlastest praed.",
       "price": 14
     },
     {
       "img": "img/tabs/elite.jpg",
-      "alting": "elite",
-      "title": "Меню 'Премиум'",
-      "descr": "В меню 'Премиум' мы используем не только дизайн упаковки, но и качественное исполнение блюд. Красная рыба, морепродукты, фрукты - ресторанное меню без похода в ресторан!",
+      "altimg": "elite",
+      "title": "Menüü 'Preemium'",
+      "descr": "'Premium' menüüs kasutame lisaks kaunile pakendikujundusele ka kvaliteetset roogade teostust. Punane kala, mereannid, puuviljad – restoranimenüü ilma restoranis käimata!",
       "price": 21
     }
   ],
   "requests": [
     {
-      "name": "Eduard",
-      "phone": "5252525252",
+      "name": "zahar",
+      "phone": "124566",
+      "preferred_call_time": "20.12.2024",
       "id": 1
     },
     {
-      "name": "Eduardik",
-      "phone": "9783249834",
+      "name": "zahar",
+      "phone": "1234",
+      "preferred_call_time": "20.20.20",
       "id": 2
     },
     {
-      "name": "artjom",
-      "phone": "1231244",
+      "name": "gsdg",
+      "phone": "123",
+      "preferred_call_time": "20.20.20",
       "id": 3
     },
     {
-      "name": "Mihhail",
-      "phone": "6564532",
+      "name": "gsdg",
+      "phone": "123",
+      "preferred_call_time": "20.12.2024",
       "id": 4
     },
     {
-      "name": "artjomka",
-      "phone": "56456",
+      "name": "gsdg",
+      "phone": "1234",
+      "preferred_call_time": "20.12.2024",
       "id": 5
+    },
+    {
+      "name": "gsdg",
+      "phone": "123",
+      "preferred_call_time": "20.20.20",
+      "id": 6
+    },
+    {
+      "name": "gsdg",
+      "phone": "4325",
+      "preferred_call_time": "20.12.2024",
+      "id": 7
+    },
+    {
+      "name": "dfgdfg",
+      "phone": "545345",
+      "preferred_call_time": "14:00",
+      "id": 8
     }
   ]
 }

@@ -1,5 +1,5 @@
-function calc(){
-        const result = document.querySelector('.calculating__result span');
+function calc() {
+    const result = document.querySelector('.calculating__result span');
 
     let sex, height, weight, age, ratio;
 
@@ -17,6 +17,8 @@ function calc(){
         localStorage.setItem('ratio', 1.375);
     }
 
+    //See funktsioon arvutab päevase kalorite vajaduse, lähtudes kasutaja soost, pikkusest, kaalust, vanusest ja aktiivsuse koefitsiendist. Erinevad valemid meestele ja naistele.
+    //Эта функция рассчитывает суточную норму калорийности на основе пола, роста, веса, возраста и коэффициента активности. В зависимости от пола использует разные формулы для мужчин и женщин.
     function calcTotal() {
         if (!sex || !height || !weight || !age || !ratio) {
             result.textContent = '___';
@@ -31,6 +33,9 @@ function calc(){
 
     calcTotal();
 
+
+    //See funktsioon määrab lehel algsed seaded soo ja aktiivsuse koefitsiendi jaoks, lisades aktiivse klassi elementidele, kasutades localStorage andmeid.
+    //Эта функция устанавливает начальные настройки пола и коэффициента активности на странице, добавляя активный класс элементам на основе данных из localStorage.
     function initLocalSettings(selector, activeClass) {
         const elements = document.querySelectorAll(selector);
 
@@ -48,6 +53,9 @@ function calc(){
     initLocalSettings('#gender div', 'calculating__choose-item_active');
     initLocalSettings('.calculating__choose_big div', 'calculating__choose-item_active');
 
+
+    //Töötleb klikke elementidel, mis vastutavad soo ja aktiivsuse koefitsiendi valiku eest. Salvestab valitud väärtused localStorage ja arvutab tulemuse uuesti.
+    //Обрабатывает клики по элементам, отвечающим за выбор пола и коэффициента активности. Сохраняет выбранные значения в localStorage и пересчитывает результат.
     function getStaticInformation(selector, activeClass) {
         const elements = document.querySelectorAll(selector);
 
@@ -75,6 +83,9 @@ function calc(){
     getStaticInformation('#gender div', 'calculating__choose-item_active');
     getStaticInformation('.calculating__choose_big div', 'calculating__choose-item_active');
 
+
+    //See funktsioon töötleb sisestust dünaamilise teabe jaoks (pikkus, kaal, vanus). Kui sisestatakse mittearvulised sümbolid, tähistatakse väli punase piiriga. Uuendab andmeid ja arvutab tulemuse.
+    //Эта функция обрабатывает ввод в поля для динамической информации (рост, вес, возраст). Если вводятся нецифровые символы, поле подсвечивается красным. Обновляет данные и пересчитывает результат.
     function getDynamicInformation(selector) {
         const input = document.querySelector(selector);
 
@@ -103,7 +114,7 @@ function calc(){
     getDynamicInformation('#height');
     getDynamicInformation('#weight');
     getDynamicInformation('#age');
-
+    
 }
 
 export default calc;
